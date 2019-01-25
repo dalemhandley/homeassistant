@@ -2,9 +2,10 @@
 *
 
 # Whitelisted files/folders
-!*.yaml
-!.gitignore
 !*.md
+!.gitignore
+!*.yml
+!*.yaml
 
 # Explicitly ignored files
 ip_bans.yaml
