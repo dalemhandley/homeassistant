@@ -4,7 +4,8 @@
       container_name: home-assistant2
       image: homeassistant/home-assistant
       volumes:
-        - /srv/homeassistant:/config
+        - /srv/homeassistant2:/config
         - /etc/localtime:/etc/localtime:ro
       restart: always
-      network_mode: host
+      ports:
+        - 8123:8123
