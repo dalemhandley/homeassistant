@@ -64,3 +64,6 @@ sensor:
 # Text to speech
 tts:
   - platform: google
+
+# Load packages
+packages: !include_dir_named components/packages
