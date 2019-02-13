@@ -14,6 +14,9 @@ homeassistant:
 
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: !secret time_zone
+
+  # Load packages
+  packages: !include_dir_named components/packages
   
 # Show links to resources in log and frontend
 introduction:
@@ -64,6 +67,3 @@ sensor:
 # Text to speech
 tts:
   - platform: google
-
-# Load packages
-packages: !include_dir_named components/packages
