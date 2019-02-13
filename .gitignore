@@ -1,12 +1,3 @@
-# Ignore everything
-*
-
-# Whitelisted files/folders
-!*.md
-!.gitignore
-!*.yml
-!*.yaml
-
 # Explicitly ignored files
 ip_bans.yaml
 secrets.yaml
