@@ -1,6 +1,6 @@
 # Explicitly ignored files
-adbkey
-adbkey.pub
+android/adbkey
+android/adbkey.pub
 ip_bans.yaml
 known_devices.yaml
 secrets.yaml

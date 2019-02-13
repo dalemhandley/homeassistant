@@ -1,0 +1,6 @@
+---
+platform: kodi
+name: Dale_Kodi
+host: 192.168.1.69
+username: kodi
+password: kodi
