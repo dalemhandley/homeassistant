@@ -1,4 +1,6 @@
 # Explicitly ignored files
+adbkey
+adbkey.pub
 ip_bans.yaml
-secrets.yaml
 known_devices.yaml
+secrets.yaml
