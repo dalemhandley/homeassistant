@@ -1,3 +1,5 @@
+# https://www.home-assistant.io/components/media_player.firetv/
+
 ---
 platform: firetv
 name: Dale_FireTV
