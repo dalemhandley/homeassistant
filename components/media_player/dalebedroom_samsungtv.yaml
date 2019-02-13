@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/media_player.samsungtv/
+
+platform: samsungtv
+name: Dale_SamsungTV
+host: 192.168.1.70
+port: 8001
+mac: 5C:49:7D:EE:ED:03
