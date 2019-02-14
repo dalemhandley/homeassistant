@@ -6,7 +6,7 @@ install:
 script:
   - hass -c . --script check_config --info all
 before_install:
-  - mkdir -p config/android
-  - mv ci_tests/travis_adbkey config/android/adbkey
-  - mv ci_tests/travis_adbkey.pub config/android/adbkey.pub
+  - mkdir -p /config/android
+  - mv ci_tests/travis_adbkey /config/android/adbkey
+  - mv ci_tests/travis_adbkey.pub /config/android/adbkey.pub
   - mv ci_tests/travis_secrets.yaml secrets.yaml
