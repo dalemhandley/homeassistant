@@ -1,5 +1,6 @@
 # https://www.home-assistant.io/components/media_player.samsungtv/
 
+---
 platform: samsungtv
 name: Dale_SamsungTV
 host: 192.168.1.70
