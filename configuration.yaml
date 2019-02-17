@@ -60,7 +60,3 @@ sun:
 sensor:
   # Weather prediction
   - platform: yr
-
-# Text to speech
-tts:
-  - platform: google
