@@ -27,9 +27,6 @@ updater:
   reporting: false
   include_used_components: false
 
-# Discover some devices automatically
-discovery:
-
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
