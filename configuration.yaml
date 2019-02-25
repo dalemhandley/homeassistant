@@ -23,6 +23,3 @@ updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   reporting: false
   include_used_components: false
-
-# Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
