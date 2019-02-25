@@ -27,4 +27,4 @@ sublimination:
   label-badge-background-color: "#272822"
   label-badge-text-color: "rgb(255, 255, 255)"
   label-badge-red: "#A6E12D"
-table-row-alternative-background-color: "#433d43"
+  table-row-alternative-background-color: "#433d43"
