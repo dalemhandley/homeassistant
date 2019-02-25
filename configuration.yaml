@@ -20,7 +20,8 @@ config:
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 http:
-  base_url: homeassistant.lab.local:8123
+  #base_url: homeassistant.lab.local:8123
+  base_url: !secret homeassistant_url
 
 # Checks for available updates
 # Note: This component will send some information about your system to
