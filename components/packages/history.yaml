@@ -3,11 +3,11 @@
 history:
   include:
     entities:
-      media_player.dale_firetv
-      media_player.dale_kodi
-      media_player.dale_samsungtv
-      media_player.spotify
-      sensor.version_available
-      sensor.version_current
-      sensor.yr_symbol
-      sun.sun
+      - media_player.dale_firetv
+      - media_player.dale_kodi
+      - media_player.dale_samsungtv
+      - media_player.spotify
+      - sensor.version_available
+      - sensor.version_current
+      - sensor.yr_symbol
+      - sun.sun
