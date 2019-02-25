@@ -1,5 +1,11 @@
 homeassistant:
 
+  name: Home
+
+  latitude: !secret zone_home_latitude
+  longitude: !secret zone_home_longitude
+  elevation: !secret elevation
+
   # metric for Metric, imperial for Imperial
   unit_system: metric
 
