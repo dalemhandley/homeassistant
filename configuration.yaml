@@ -1,7 +1,4 @@
 homeassistant:
-  
-  # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: !secret elevation
 
   # metric for Metric, imperial for Imperial
   unit_system: metric
@@ -29,6 +26,3 @@ updater:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
-
-# Track the sun
-sun:
