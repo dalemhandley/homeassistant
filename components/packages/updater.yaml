@@ -1,0 +1,5 @@
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+
+updater:
+  reporting: true
+  include_used_components: false
