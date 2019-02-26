@@ -1,3 +1,5 @@
+# https://www.home-assistant.io/components/sensor.pi_hole/
+
 platform: pi_hole
 host: 192.168.1.100
 monitored_conditions:
