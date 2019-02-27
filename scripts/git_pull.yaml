@@ -1,0 +1,4 @@
+script_git_pull:
+  alias: Git Pull
+  sequence:
+    - service: shell_command.shell_git_pull
