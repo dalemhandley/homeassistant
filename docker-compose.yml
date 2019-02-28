@@ -1,10 +1,10 @@
   version: '3'
   services:
     homeassistant:
-      container_name: home-assistant2
+      container_name: homeassistant
       image: homeassistant/home-assistant
       volumes:
-        - /srv/homeassistant2:/config
+        - /srv/homeassistant:/config
         - /etc/localtime:/etc/localtime:ro
       restart: always
       ports:
