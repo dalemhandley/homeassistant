@@ -1,0 +1,6 @@
+# https://www.home-assistant.io/components/notify.telegram/
+
+---
+platform: telegram
+name: telegram
+chat_id: !secret telegram_dale
