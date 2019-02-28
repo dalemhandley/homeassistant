@@ -1,4 +1,5 @@
 # Explicitly ignored files
+*.disabled
 android/adbkey
 android/adbkey.pub
 ip_bans.yaml
