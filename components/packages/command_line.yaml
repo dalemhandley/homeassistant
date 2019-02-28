@@ -1,3 +1,0 @@
-# https://www.home-assistant.io/components/sensor.command_line/
-
-command_line: !include_dir_named ../command_lines
