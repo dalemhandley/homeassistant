@@ -1,0 +1,3 @@
+# https://www.home-assistant.io/components/shell_command/
+
+shell_git_pull: 'touch /config/watchdog/git_pull'
