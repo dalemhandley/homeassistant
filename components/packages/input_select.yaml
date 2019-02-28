@@ -1,0 +1,3 @@
+# https://www.home-assistant.io/components/input_select/
+
+input_select: !include_dir_list ../input_selects

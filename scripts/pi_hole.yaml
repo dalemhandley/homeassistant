@@ -1,0 +1,4 @@
+script_enable_pihole:
+  alias: Enable Pi-Hole
+  sequence:
+    service: shell_command.pihole_enable

@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/sensor.command_line/
+
+platform: command_line
+name: Pi-Hole Status
+command: curl -X GET 'http://pihole.lab.local/admin/api.php?status'
+value_template: >
+  {{ value_json.status }}
