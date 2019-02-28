@@ -1,8 +1,8 @@
 # https://www.home-assistant.io/components/input_select/
 
 pihole_time:
-name: Disable Time (seconds)
-options:
+  name: Disable Time (seconds)
+  options:
   - 10
   - 30
   - 60
@@ -11,4 +11,4 @@ options:
   - 900
   - 1800
   - 3600
-initial: 30
+  initial: 30

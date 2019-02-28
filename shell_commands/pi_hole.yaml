@@ -1,4 +1,4 @@
 # https://www.home-assistant.io/components/shell_command/
 
-pihole_enable: curl -X GET 'http://pihole.lab.local/admin/api.php?enable&auth=yourauth'
-pihole_disable: curl -X GET 'http://pihole.lab.local/admin/api.php?disable={{ states.input_select.pihole_time.state }}&auth=yourauth'
+pihole_enable: curl -X GET 'http://pihole.lab.local/admin/api.php?enable&auth='
+pihole_disable: curl -X GET 'http://pihole.lab.local/admin/api.php?disable={{ states.input_select.pihole_time.state }}&auth='
