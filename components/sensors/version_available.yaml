@@ -1,5 +1,5 @@
 # https://www.home-assistant.io/components/sensor.version/
 
-platform: version
-name: version_available
-source: docker
+- platform: version
+  name: version_available
+  source: docker
