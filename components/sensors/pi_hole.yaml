@@ -14,6 +14,7 @@
 
 - platform: command_line
   name: pihole_status
+  scan_interval: 5
   command: curl -X GET 'http://pihole.lab.local/admin/api.php?status&auth='
   value_template: >
     {{ value_json.status }}
