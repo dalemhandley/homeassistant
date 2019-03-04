@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+weather:
+  name: Weather
+  entities:
+  - sensor.yr_symbol
+  - sun.sun
