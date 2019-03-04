@@ -1,7 +1,7 @@
 # Notifies when there is an upgrade of the Docker image available
 
 ---
-alias: HASS Upgrade Available
+alias: upgrade_available
 trigger:
   platform: state
   entity_id: sensor.version_available
