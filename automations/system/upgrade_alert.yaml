@@ -1,30 +1,29 @@
 # Notifies when there is an upgrade of the Docker image available
 
----
-alias: upgrade_available
-trigger:
-  platform: state
-  entity_id: sensor.version_available
-condition:
-  - condition: template
-    value_template: >-
-      {{
-        states('sensor.version_available')
-        !=
-        states('sensor.version_current')
-      }}
-action:
-  - service: persistent_notification.create
-    data_template:
-      title: HASS Upgrade available!
-      message: >-
-        There is a new Home Assistant Docker image available!
-        Version {{ states('sensor.version_available') }} has just been released!
-      notification_id: hass_docker_upgrade
-  - service: notify.telegram
-    data_template:
-      title: HASS Upgrade available!
-      message: >-
-        There is a new Home Assistant Docker image available!
-        Version {{ states('sensor.version_available') }} has just been released!
-      notification_id: hass_docker_upgrade
+- alias: upgrade_available
+  trigger:
+    platform: state
+    entity_id: sensor.version_available
+  condition:
+    - condition: template
+      value_template: >-
+        {{
+          states('sensor.version_available')
+          !=
+          states('sensor.version_current')
+        }}
+  action:
+    - service: persistent_notification.create
+      data_template:
+        title: HASS Upgrade available!
+        message: >-
+          There is a new Home Assistant Docker image available!
+          Version {{ states('sensor.version_available') }} has just been released!
+        notification_id: hass_docker_upgrade
+    - service: notify.telegram
+      data_template:
+        title: HASS Upgrade available!
+        message: >-
+          There is a new Home Assistant Docker image available!
+          Version {{ states('sensor.version_available') }} has just been released!
+        notification_id: hass_docker_upgrade
