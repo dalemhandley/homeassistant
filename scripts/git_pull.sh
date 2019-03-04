@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /srv/homeassistant2/
+cd /srv/homeassistant
 git pull
