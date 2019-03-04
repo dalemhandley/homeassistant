@@ -1,7 +1,7 @@
 # https://www.home-assistant.io/components/automation/
 
 ---
-alias: Disable Pi-Hole
+alias: disable_pi_hole
 trigger:
   platform: state
   entity_id: input_select.pihole_time
