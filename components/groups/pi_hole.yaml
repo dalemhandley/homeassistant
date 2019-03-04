@@ -4,6 +4,7 @@ pihole:
   name: Pi-Hole Status
   entities:
   - sensor.pihole_status
+  - automation.disable_pi_hole
   - script.enable_pihole
   - input_select.pihole_time
   - sensor.pi_hole_ads_blocked_today
