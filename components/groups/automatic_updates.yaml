@@ -5,7 +5,6 @@ auto_update:
   entities:
   - sensor.version_current
   - sensor.version_available
-  - updater.updater
   - automation.upgrade_available
   - automation.webhook_test
   - script.script_git_pull
