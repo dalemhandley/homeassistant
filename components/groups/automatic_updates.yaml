@@ -1,0 +1,10 @@
+# https://www.home-assistant.io/components/group/
+
+auto_update:
+  name: Auto Update
+  entities:
+  - sensor.version_current
+  - sensor.version_available
+  - updater.updater
+  - automation.webhook_test
+  - script.script_git_pull
