@@ -1,0 +1,8 @@
+# https://www.home-assistant.io/components/group/
+
+speedtest:
+  name: Speedtest Status
+  entities:
+  - sensor.speedtest_ping
+  - sensor.speedtest_download
+  - sensor.speedtest_upload
