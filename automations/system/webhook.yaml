@@ -1,0 +1,12 @@
+# https://www.home-assistant.io/components/automation/
+
+- alias: Webhook Test
+  trigger:
+    platform: webhook
+    webhook_id: !secret webhook_id_github
+  action:
+    - service: logbook.log
+      data_template:
+        name: Webhook Test
+        message: Webhook automation triggered by Github
+    - service: shell_command.shell_git_pull
