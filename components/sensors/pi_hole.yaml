@@ -11,3 +11,9 @@
     - queries_forwarded
     - unique_clients
     - unique_domains
+
+- platform: command_line
+  name: pihole_status
+  command: curl -X GET 'http://pihole.lab.local/admin/api.php?status'
+  value_template: >
+    {{ value_json.status }}
