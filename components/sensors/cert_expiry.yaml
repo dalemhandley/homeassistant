@@ -1,0 +1,4 @@
+# https://www.home-assistant.io/components/sensor.cert_expiry/
+
+- platform: cert_expiry
+  host: home-assistant.io
