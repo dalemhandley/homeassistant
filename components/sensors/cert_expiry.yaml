@@ -1,4 +1,11 @@
 # https://www.home-assistant.io/components/sensor.cert_expiry/
 
 - platform: cert_expiry
-  host: home-assistant.io
+  host: degsy81.dynu.com
+  name: Home Assistant
+- platform: cert_expiry
+  host: vcsa.lab.local
+  name: vCenter
+- platform: cert_expiry
+  host: vra75va.lab.local
+  name: vRA 7.5
