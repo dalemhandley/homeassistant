@@ -6,6 +6,7 @@
       volumes:
         - /srv/homeassistant:/config
         - /etc/localtime:/etc/localtime:ro
+      network_mode: "host"
       restart: always
       ports:
         - 8123:8123
