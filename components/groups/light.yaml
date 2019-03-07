@@ -1,0 +1,6 @@
+# https://www.home-assistant.io/components/group/
+
+light:
+  name: Lights
+  entities:
+    - light.dale_s_ceiling_light
