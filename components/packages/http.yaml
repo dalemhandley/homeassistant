@@ -1,5 +1,7 @@
 # https://www.home-assistant.io/components/http/
 
+api:
+
 http:
   # Protects Home Assistant with a password.
   api_password: !secret http_api_password
