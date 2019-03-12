@@ -10,4 +10,4 @@ longitude: !secret zone_work1_longitude
 
 radius: 250
 passive: false
-icon: mdi:work
+icon: mdi:worker
