@@ -1,3 +1,6 @@
 # https://www.home-assistant.io/components/emulated_hue/
 
 emulated_hue:
+  entities:
+    light.dale_s_ceiling_light:
+      name: "Dale's ceiling light"
