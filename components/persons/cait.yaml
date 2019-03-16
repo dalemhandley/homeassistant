@@ -1,0 +1,4 @@
+# https://www.home-assistant.io/components/person/
+
+- name: Cait
+  id: !secret hass_user_id_cait
