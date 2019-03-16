@@ -16,10 +16,6 @@ http:
   trusted_proxies:
     - 127.0.0.1
 
-  trusted_networks:
-    - 127.0.0.1
-    - 192.168.0.0/24
-
   # Enables additional IP filtering.
   ip_ban_enabled: true
 
