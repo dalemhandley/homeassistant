@@ -2,6 +2,7 @@
 
 auth_providers:
   - type: homeassistant
-  - trusted_networks:
-    - 127.0.0.1
-    - 192.168.1.0/24
+  - type: trusted_networks
+    trusted_networks:
+      - 127.0.0.1
+      - 192.168.1.0/24
