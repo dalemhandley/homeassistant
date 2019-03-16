@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/device_tracker.nmap_tracker/
+
+- platform: nmap_tracker
+  hosts: 192.168.1.0/24
+  home_interval: 10
+  consider_home: 300
+  scan_options: -F –host-timeout 5s
