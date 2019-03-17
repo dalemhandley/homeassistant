@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+devicetracker:
+  name: Device Trackers
+  entities:
+    - device_tracker.phone_dale_ariela
+    -  device_tracker.phone_dale_nmap
