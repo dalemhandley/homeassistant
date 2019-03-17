@@ -1,8 +1,0 @@
-# https://www.home-assistant.io/components/person/
-
-- name: Dale
-  id: !secret hass_user_id_dale
-  user_id: !secret hass_user_id_dale
-  device_trackers:
-    - device_tracker.phone_dale_gps
-    - device_tracker.phone_dale_nmap

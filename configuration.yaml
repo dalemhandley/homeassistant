@@ -12,7 +12,20 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: !secret time_zone
 
-  customize: !include customize.yaml
-
   # Load packages
   packages: !include_dir_named components/packages
+
+  # Load customisations
+  customize: !include customize.yaml
+
+# People
+person:
+  - name: Dale
+    id: !secret hass_user_id_dale
+    user_id: !secret hass_user_id_dale
+    device_trackers:
+      - device_tracker.phone_dale_gps
+      - device_tracker.phone_dale_nmap
+
+  - name: Cait
+    id: !secret hass_user_id_cait
