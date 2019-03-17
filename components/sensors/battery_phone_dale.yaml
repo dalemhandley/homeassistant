@@ -6,8 +6,8 @@
       friendly_name: Dale's Phone Battery
       unit_of_measurement: '%'
       value_template: >-
-          {%- if states.device_tracker.phone_dale_gps.attributes.battery %}
-              {{ states.device_tracker.phone_dale_gps.attributes.battery|round }}
+          {%- if states.device_tracker.phone_dale_ariela.attributes.battery %}
+              {{ states.device_tracker.phone_dale_ariela.attributes.battery|round }}
           {% else %}
               {{ states.sensor.battery_phone_dale.state }}
           {%- endif %}
