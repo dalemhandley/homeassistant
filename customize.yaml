@@ -1,0 +1,4 @@
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+
+device_tracker.phone.dale.ariela:
+  friendly_name: Dale's Phone (Ariela)
