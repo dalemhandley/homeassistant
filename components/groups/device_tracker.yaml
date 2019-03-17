@@ -4,4 +4,4 @@ devicetracker:
   name: Device Trackers
   entities:
     - device_tracker.phone_dale_ariela
-    -  device_tracker.phone_dale_nmap
+    - device_tracker.phone_dale_nmap
