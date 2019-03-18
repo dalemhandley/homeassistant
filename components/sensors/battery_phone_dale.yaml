@@ -2,13 +2,26 @@
 
 - platform: template
   sensors:
-    battery_phone_dale:
-      friendly_name: Dale's Phone Battery
+    battery_phone_dale_personal:
+      friendly_name: Dale's Personal Phone Battery
       unit_of_measurement: '%'
       value_template: >-
-          {%- if states.device_tracker.phone_dale_ariela.attributes.battery %}
-              {{ states.device_tracker.phone_dale_ariela.attributes.battery|round }}
+          {%- if states.device_tracker.phone_dale_personal_ariela.attributes.battery %}
+              {{ states.device_tracker.phone_dale_personal_ariela.attributes.battery|round }}
           {% else %}
-              {{ states.sensor.battery_phone_dale.state }}
+              {{ states.sensor.battery_phone_dale_personal.state }}
+          {%- endif %}
+      device_class: battery
+
+- platform: template
+  sensors:
+    battery_phone_dale_work:
+      friendly_name: Dale's Work Phone Battery
+      unit_of_measurement: '%'
+      value_template: >-
+          {%- if states.device_tracker.phone_dale_work_ariela.attributes.battery %}
+              {{ states.device_tracker.phone_dale_work_ariela.attributes.battery|round }}
+          {% else %}
+              {{ states.sensor.battery_phone_dale_work.state }}
           {%- endif %}
       device_class: battery
