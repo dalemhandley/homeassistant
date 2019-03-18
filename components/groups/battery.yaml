@@ -3,4 +3,5 @@
 batterystatus:
   name: Battery Status
   entities:
-    - sensor.battery_phone_dale
+    - sensor.battery_phone_dale_personal
+    - sensor.battery_phone_dale_work
