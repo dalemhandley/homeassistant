@@ -5,3 +5,4 @@ batterystatus:
   entities:
     - sensor.battery_phone_dale_personal
     - sensor.battery_phone_dale_work
+    - sensor.battery_tablet_dale_10
