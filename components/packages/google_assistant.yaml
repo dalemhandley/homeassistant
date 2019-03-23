@@ -1,6 +1,3 @@
-# https://www.home-assistant.io/components/alexa/
 # https://www.home-assistant.io/components/google_assistant
-
-alexa: !include ../../assistants/alexa.yaml
 
 google_assistant: ../../assistants/google_assistant.yaml
