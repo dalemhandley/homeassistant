@@ -8,3 +8,9 @@ device_tracker.phone_dale_work_ariela:
 
 device_tracker.tablet_dale_ariela:
   friendly_name: Dale's Tablet (Ariela)
+
+sensor.dale's_bedroom_temperature:
+  friendly_name: Dale's Bedroom Temperature
+
+sensor.dale's_bedroom_humidity:
+  friendly_name: Dale's Bedroom Humidity
