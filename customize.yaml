@@ -1,7 +1,7 @@
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 
 binary_sensor.workday_sensor:
-  friendly_name: Workday?
+  friendly_name: Workday Sensor
 
 device_tracker.phone_dale_personal_ariela:
   friendly_name: Dale's Personal Phone (Ariela)
