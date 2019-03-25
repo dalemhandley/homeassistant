@@ -3,10 +3,31 @@
 history:
   include:
     entities:
+      - binary_sensor.workday_sensor
+      - device_tracker.phone_dale_nmap
+      - device_tracker.phone_dale_personal_ariela
+      - device_tracker.phone_dale_work_ariela
+      - device_tracker.tablet_dale_ariela
+      - light.dale_s_ceiling_light
       - media_player.dale_firetv
       - media_player.dale_kodi
       - media_player.dale_samsungtv
+      - media_player.ghm_kitchen
+      - media_player.ps4_pro
       - media_player.spotify
+      - media_player.xbox_one_x
+      - person.cait
+      - person.dale
+      - sensor.battery_phone_dale_personal
+      - sensor.battery_phone_dale_work
+      - sensor.battery_tablet_dale_10
+      - sensor.dale_bedroom_humidity
+      - sensor.dale_bedroom_temperature
+      - sensor.dark_sky.*
+      - sensor.ghm_kitchen_alarm
+      - sensor.ghm_kitchen_timer
+      - sensor.pi_hole_*
+      - sensor.speedtest_*
       - sensor.version_available
       - sensor.version_current
       - sensor.yr_symbol
