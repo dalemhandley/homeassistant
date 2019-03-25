@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+googlehome:
+  name: Google Home
+  entities:
+    - sensor.ghm_kitchen_alarm
+    - sensor.ghm_kitchen_timer

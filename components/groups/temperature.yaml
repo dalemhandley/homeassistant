@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+temperature:
+  name: Temperature / Humidity
+  entities:
+  - sensor.dale_bedroom_temperature
+  - sensor.dale_bedroom_humidity

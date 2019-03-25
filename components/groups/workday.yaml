@@ -1,0 +1,6 @@
+# https://www.home-assistant.io/components/group/
+
+workday:
+  name: Workday
+  entities:
+    -  binary_sensor.workday_sensor

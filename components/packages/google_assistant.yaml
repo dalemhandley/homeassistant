@@ -1,0 +1,3 @@
+# https://www.home-assistant.io/components/google_assistant
+
+google_assistant: !include ../../assistants/google_assistant.yaml
