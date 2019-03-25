@@ -1,0 +1,25 @@
+# https://www.home-assistant.io/components/sensor.template/
+
+- platform: template
+  sensors:
+    ghm_kitchen_alarm_template:
+      friendly_name: GHM Kitchen Alarm
+      value_template: >-
+        {%- if is_state('sensor.ghm_kitchen_alarm', 'unavailable') %}
+          No alarm set
+        {% else %}
+          {{ states.sensor.ghm_kitchen_alarm.state }}
+        {%- endif %}
+      icon: mdi:alarm
+
+- platform: template
+  sensors:
+    ghm_kitchen_timer_template:
+      friendly_name: GHM Kitchen Timer
+      value_template: >-
+        {%- if is_state('sensor.ghm_kitchen_timer', 'unavailable') %}
+          No timer set
+        {% else %}
+          {{ states.sensor.ghm_kitchen_timer.state }}
+        {%- endif %}
+      icon: mdi:alarm
