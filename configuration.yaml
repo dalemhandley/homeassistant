@@ -18,6 +18,7 @@ homeassistant:
   # Load customisations
   customize: !include customize.yaml
 
+# https://github.com/home-assistant/home-assistant/issues/21307
 # People
 person:
   - name: Dale
