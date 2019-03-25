@@ -23,11 +23,11 @@ history:
       - sensor.battery_tablet_dale_10
       - sensor.dale_bedroom_humidity
       - sensor.dale_bedroom_temperature
-      - sensor.dark_sky.*
+      #- sensor.dark_sky.*
       - sensor.ghm_kitchen_alarm
       - sensor.ghm_kitchen_timer
-      - sensor.pi_hole_*
-      - sensor.speedtest_*
+      #- sensor.pi_hole_*
+      #- sensor.speedtest_*
       - sensor.version_available
       - sensor.version_current
       - sensor.yr_symbol
