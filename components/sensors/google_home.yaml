@@ -10,7 +10,7 @@
         {% else %}
           {{ states.sensor.ghm_kitchen_alarm.state }}
         {%- endif %}
-      icon: mdi:alarm
+      icon_template: mdi:alarm
 
 - platform: template
   sensors:
@@ -22,4 +22,4 @@
         {% else %}
           {{ states.sensor.ghm_kitchen_timer.state }}
         {%- endif %}
-      icon: mdi:alarm
+      icon_template: mdi:alarm
