@@ -1,4 +1,5 @@
 # https://www.home-assistant.io/components/sensor.yr/
+# https://www.home-assistant.io/components/sensor.darksky/
 
 - platform: yr
 
