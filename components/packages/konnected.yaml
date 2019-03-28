@@ -4,4 +4,4 @@ konnected:
   access_token: !secret konnected_access_token
   api_host: !secret homeassistant_url_internal
   devices:
-    -id: !secret konnected_mac_address
+    - id: !secret konnected_mac_address
