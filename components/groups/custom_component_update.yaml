@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+custom_component_update:
+  name: Custom Component Update
+  entities:
+    - sensor.custom_card_tracker
+    - sensor.custom_component_tracker
