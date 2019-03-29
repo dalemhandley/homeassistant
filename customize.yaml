@@ -17,3 +17,9 @@ sensor.dale_bedroom_temperature:
 
 sensor.dale_bedroom_humidity:
   friendly_name: Dale's Bedroom Humidity
+
+sensor.custom_card_tracker:
+  friendly_name: Custom Card Updates
+
+sensor.custom_component_tracker: 
+  friendly_name: Custom Component Updates
