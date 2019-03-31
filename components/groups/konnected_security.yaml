@@ -1,0 +1,6 @@
+# https://www.home-assistant.io/components/group/
+
+konnected_security:
+  name: Konnected Security
+  entities:
+    - binary_sensor.front_door
