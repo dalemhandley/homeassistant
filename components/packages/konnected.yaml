@@ -5,3 +5,7 @@ konnected:
   api_host: !secret homeassistant_url_internal
   devices:
     - id: !secret konnected_mac_address
+      binary_sensors:
+          - zone: 1
+            type: door
+            name: 'Front Door'
