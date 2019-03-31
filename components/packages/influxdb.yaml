@@ -106,5 +106,6 @@ influxdb:
       - sensor.time
       - sensor.version_available
       - sensor.version_current
+      - sensor.water_level
       - sensor.yr_symbol
       - sun.sun
