@@ -7,3 +7,4 @@ devicetracker:
     - device_tracker.phone_dale_work_ariela
     - device_tracker.phone_dale_nmap
     - device_tracker.tablet_dale_10_ariela
+    - device_tracker.tablet_dale_12_ariela
