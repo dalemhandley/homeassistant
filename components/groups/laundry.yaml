@@ -1,0 +1,12 @@
+# https://www.home-assistant.io/components/group/
+
+laundry:
+  name: Laundry
+  entities:
+  - sensor.mpu6050_accel_x
+  - sensor.mpu6050_accel_y
+  - sensor.mpu6050_accel_z
+  - sensor.mpu6050_gyro_x
+  - sensor.mpu6050_gyro_y
+  - sensor.mpu6050_gyro_z
+  - sensor.mpu6050_temperature

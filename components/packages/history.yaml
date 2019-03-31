@@ -75,6 +75,13 @@ history:
       - sensor.ghm_kitchen_timer
       - sensor.ghm_kitchen_timer_template
       - sensor.internet_time
+      - sensor.mpu6050_accel_x
+      - sensor.mpu6050_accel_y
+      - sensor.mpu6050_accel_z
+      - sensor.mpu6050_gyro_x
+      - sensor.mpu6050_gyro_y
+      - sensor.mpu6050_gyro_z
+      - sensor.mpu6050_temperature
       - sensor.pi_hole_ads_blocked_today
       - sensor.pi_hole_ads_percentage_blocked_today
       - sensor.pi_hole_dns_queries_cached
