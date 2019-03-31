@@ -100,6 +100,8 @@ influxdb:
       - sensor.pi_hole_dns_unique_clients
       - sensor.pi_hole_dns_unique_domains
       - sensor.pi_hole_domains_blocked
+      - sensor.server_room_temperature
+      - sensor.server_room_humidity
       - sensor.speedtest_ping
       - sensor.speedtest_download
       - sensor.speedtest_upload
