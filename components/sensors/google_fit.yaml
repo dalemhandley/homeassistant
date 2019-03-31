@@ -1,0 +1,7 @@
+# https://community.home-assistant.io/t/google-fit-support/4556
+# https://github.com/hemantkamalakar/haconfigs/tree/master/custom_components/google_fit
+
+- platform: google_fit
+  name: Google Fit
+  client_id: !secret google_fit_oauth_client_id
+  client_secret: !secret google_fit_oauth_client_secret
