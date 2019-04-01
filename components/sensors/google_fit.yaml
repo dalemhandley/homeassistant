@@ -5,3 +5,55 @@
   name: Google Fit
   client_id: !secret google_fit_oauth_client_id
   client_secret: !secret google_fit_oauth_client_secret
+
+- platform: template
+  sensors:
+    sleep_dale_bedtime:
+      friendly_name: "Bed Time"
+      icon_template: >-
+          mdi:hotel
+      value_template: >-
+          {%- if states.sensor.google_fit_sleep.attributes.bed_time %}
+            {{ states.sensor.google_fit_sleep.attributes.bed_time }}
+          {% else %}
+            {{ states.sensor.google_fit_sleep.attributes.bed_time }}
+          {%- endif %}
+
+- platform: template
+  sensors:
+    sleep_wakeup_time:
+      friendly_name: "Wakeup Time"
+      icon_template: >-
+          mdi:white-balance-sunny
+      value_template: >-
+          {%- if states.sensor.google_fit_sleep.attributes.wake_up_time %}
+            {{ states.sensor.google_fit_sleep.attributes.wake_up_time }}
+          {% else %}
+            {{ states.sensor.google_fit_sleep.attributes.wake_up_time }}
+          {%- endif %}
+         
+- platform: template
+  sensors:
+    sleep_deep_sleep:
+      friendly_name: "Deep Sleep"
+      icon_template: >-
+          mdi:sleep
+      value_template: >-
+          {%- if states.sensor.google_fit_sleep.attributes.deep_sleep %}
+            {{ states.sensor.google_fit_sleep.attributes.deep_sleep }}
+          {% else %}
+            {{ states.sensor.google_fit_sleep.attributes.deep_sleep }}
+          {%- endif %}
+                     
+- platform: template
+  sensors:
+    sleep_light_sleep:
+      friendly_name: "Light Sleep"
+      icon_template: >-
+          mdi:sleep-off
+      value_template: >-
+          {%- if states.sensor.google_fit_sleep.attributes.light_sleep %}
+            {{ states.sensor.google_fit_sleep.attributes.light_sleep }}
+          {% else %}
+            {{ states.sensor.google_fit_sleep.attributes.light_sleep }}
+          {%- endif %}

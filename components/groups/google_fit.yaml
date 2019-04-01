@@ -9,3 +9,8 @@ googlefit:
     - sensor.google_fit_move_time
     - sensor.google_fit_steps
     - sensor.google_fit_weight
+    - sensor.google_fit_sleep
+    - sensor.google_fit_sleep_dale_bedtime
+    - sensor.google_fit_sleep_wakeup_time
+    - sensor.google_fit_sleep_deep_sleep
+    - sensor.google_fit_sleep_light_sleep
