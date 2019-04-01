@@ -8,7 +8,7 @@
 
 - platform: template
   sensors:
-    sleep_dale_bedtime:
+    google_fit_sleep_bed_time:
       friendly_name: "Bed Time"
       icon_template: >-
           mdi:hotel
@@ -21,7 +21,7 @@
 
 - platform: template
   sensors:
-    sleep_wakeup_time:
+    google_fit_sleep_wakeup_time:
       friendly_name: "Wakeup Time"
       icon_template: >-
           mdi:white-balance-sunny
@@ -34,7 +34,7 @@
          
 - platform: template
   sensors:
-    sleep_deep_sleep:
+    google_fit_sleep_deep_sleep:
       friendly_name: "Deep Sleep"
       icon_template: >-
           mdi:sleep
@@ -47,7 +47,7 @@
                      
 - platform: template
   sensors:
-    sleep_light_sleep:
+    google_fit_sleep_light_sleep:
       friendly_name: "Light Sleep"
       icon_template: >-
           mdi:sleep-off
