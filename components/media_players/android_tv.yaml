@@ -5,3 +5,9 @@ platform: androidtv
 name: Dale_FireTV
 host: 192.168.1.69
 adbkey: "/config/android/adbkey"
+apps:
+  com.google.android.tvlauncher: "Homescreen"
+  org.xbmc.kodi: "Kodi"
+  com.netflix.ninja: "Netflix"
+  com.plexapp.android: "Plex"
+  com.google.android.youtube.tv: "Youtube"
