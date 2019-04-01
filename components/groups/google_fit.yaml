@@ -1,0 +1,11 @@
+# https://www.home-assistant.io/components/group/
+
+googlefit:
+  name: Google Fit
+  entities:
+    - sensor.google_fit_calories
+    - sensor.google_fit_distance
+    - sensor.google_fit_height
+    - sensor.google_fit_move_time
+    - sensor.google_fit_steps
+    - sensor.google_fit_weight
