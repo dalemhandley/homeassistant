@@ -75,6 +75,17 @@ history:
       - sensor.ghm_kitchen_alarm_template
       - sensor.ghm_kitchen_timer
       - sensor.ghm_kitchen_timer_template
+      - sensor.google_fit_calories
+      - sensor.google_fit_distance
+      - sensor.google_fit_height
+      - sensor.google_fit_move_time
+      - sensor.google_fit_sleep
+      - sensor.google_fit_sleep_bed_time
+      - sensor.google_fit_sleep_deep_sleep
+      - sensor.google_fit_sleep_light_sleep
+      - sensor.google_fit_sleep_wakeup_time
+      - sensor.google_fit_steps
+      - sensor.google_fit_weight
       - sensor.internet_time
       - sensor.mpu6050_accel_x
       - sensor.mpu6050_accel_y
