@@ -2,8 +2,8 @@
 
 title: Home Control Panel
 resources:
-  - url: /lovelace/custom_cards/weather_card/weather-card.js
+  - url: /config/lovelace/custom_cards/weather_card/weather-card.js
     type: module
 views:
-  - !include lovelace/views/dashboard.yaml
-  - !include lovelace/views/weather.yaml
+  - !include /config/lovelace/views/dashboard.yaml
+  - !include /config/lovelace/views/weather.yaml
