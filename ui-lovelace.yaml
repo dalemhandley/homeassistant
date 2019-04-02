@@ -1,0 +1,6 @@
+# https://www.home-assistant.io/lovelace
+
+title: Home Control Panel
+resources: !include_dir_list lovelace/resources
+views:
+  - !include lovelace/views/dashboard.yaml
