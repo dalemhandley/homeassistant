@@ -1,9 +1,9 @@
 # https://www.home-assistant.io/lovelace
 
-title: Home Control Panel
+title: HomeAssistant
 resources:
-  - url: /config/lovelace/custom_cards/weather_card/weather-card.js
+  - url: /local/lovelace/custom_cards/weather_card/weather-card.js?v=0.000001
     type: module
 views:
-  - !include /config/lovelace/views/dashboard.yaml
-  - !include /config/lovelace/views/weather.yaml
+  - !include lovelace/views/dashboard.yaml
+  - !include lovelace/views/weather.yaml
