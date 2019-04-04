@@ -39,6 +39,12 @@ sensor.ghm_kitchen_timer:
 sensor.ghm_kitchen_timer_template:
   friendly_name: GHM Kitchen Timer Time
 
+sensor.kitchen_temperature:
+  friendly_name: Kitchen Temperature
+
+sensor.kitchen_humidity:
+  friendly_name: Kitchen Humidity
+
 sensor.server_room_temperature:
   friendly_name: Server Room Temperature
 

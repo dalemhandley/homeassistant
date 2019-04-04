@@ -88,6 +88,8 @@ history:
       - sensor.google_fit_steps
       - sensor.google_fit_weight
       - sensor.internet_time
+      - sensor.kitchen_temperature
+      - sensor.kitchen_humidity
       - sensor.mpu6050_accel_x
       - sensor.mpu6050_accel_y
       - sensor.mpu6050_accel_z
