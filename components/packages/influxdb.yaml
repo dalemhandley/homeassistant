@@ -32,6 +32,7 @@ influxdb:
       - sensor.battery_phone_dale_personal
       - sensor.battery_phone_dale_work
       - sensor.battery_tablet_dale_10
+      - sensor.battery_tablet_dale_12
       - sensor.dale_bedroom_humidity
       - sensor.dale_bedroom_temperature
       - sensor.dark_sky_apparent_temperature
