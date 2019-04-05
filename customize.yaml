@@ -15,6 +15,9 @@ device_tracker.tablet_dale_10_ariela:
 device_tracker.tablet_dale_12_ariela:
   friendly_name: Dale's 12" Tablet (Ariela)
 
+light.dale_s_ceiling_light:
+  friendly_name: Dale's Light
+
 sensor.custom_card_tracker:
   friendly_name: Custom Card Updates
 
