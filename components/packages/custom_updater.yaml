@@ -2,3 +2,5 @@ custom_updater:
   track:
     - cards
     - components
+  card_urls:
+    - https://raw.githubusercontent.com/bramkragten/custom-ui/master/updater.json
