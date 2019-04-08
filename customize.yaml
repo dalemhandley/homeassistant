@@ -15,6 +15,9 @@ device_tracker.tablet_dale_10_ariela:
 device_tracker.tablet_dale_12_ariela:
   friendly_name: Dale's 12" Tablet (Ariela)
 
+light.dale_s_ceiling_light:
+  friendly_name: Dale's Light
+
 sensor.custom_card_tracker:
   friendly_name: Custom Card Updates
 
@@ -38,6 +41,12 @@ sensor.ghm_kitchen_timer:
 
 sensor.ghm_kitchen_timer_template:
   friendly_name: GHM Kitchen Timer Time
+
+sensor.kitchen_temperature:
+  friendly_name: Kitchen Temperature
+
+sensor.kitchen_humidity:
+  friendly_name: Kitchen Humidity
 
 sensor.server_room_temperature:
   friendly_name: Server Room Temperature
