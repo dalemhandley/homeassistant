@@ -5,3 +5,4 @@ android/adbkey.pub
 ip_bans.yaml
 known_devices.yaml
 secrets.yaml
+www/lovelace/images/*.jpg
