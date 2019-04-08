@@ -7,6 +7,5 @@ resources:
   - url: /customcards/lovelace/custom-cards/weather-card/weather-card.js?track=true
     type: module
 views:
-  # - !include lovelace/views/dashboard.yaml
-  # - !include lovelace/views/weather.yaml
   - !include lovelace/views/mobile_view_home.yaml
+  - !include lovelace/views/mobile_view_weather.yaml
