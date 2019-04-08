@@ -2,8 +2,11 @@
 
 title: HomeAssistant
 resources:
-  - url: /local/lovelace/custom_cards/weather_card/weather-card.js?v=0.000001
+  - url: /customcards/lovelace/custom-cards/compact-custom-header-card/compact-custom-header.js?track=true
+    type: module
+  - url: /customcards/lovelace/custom-cards/weather-card/weather-card.js?track=true
     type: module
 views:
-  - !include lovelace/views/dashboard.yaml
-  - !include lovelace/views/weather.yaml
+  # - !include lovelace/views/dashboard.yaml
+  # - !include lovelace/views/weather.yaml
+  - !include lovelace/views/mobile_view_home.yaml
