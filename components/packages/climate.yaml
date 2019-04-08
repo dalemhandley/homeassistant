@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/generic_thermostat/
+
+climate:
+  - platform: generic_thermostat
+    name: Thermostat
+    heater: switch.combi_boiler_heating
+    target_sensor: sensor.dale_bedroom_temperature
