@@ -69,5 +69,5 @@ sensor.server_room_temperature:
 sensor.server_room_humidity:
   friendly_name: Server Room Humidity
 
-switch.switch.combi_boiler_heating:
+switch.combi_boiler_heating:
   friendly_name: Combi Boiler Heating
