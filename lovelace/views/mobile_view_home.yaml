@@ -22,21 +22,9 @@ cards:
     cards:
       - type: horizontal-stack
         cards:
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.cait
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
+          - type: thermostat
+            entity: climate.thermostat
+            name: Thermostat
   - type: vertical-stack
     cards:
       - type: horizontal-stack
