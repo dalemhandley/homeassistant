@@ -6,6 +6,9 @@ binary_sensor.workday_sensor:
 device_tracker.phone_dale_personal_ariela:
   friendly_name: Dale's Personal Phone (Ariela)
 
+camera.esp32_doorbell:
+  friendly_name: Doorbell Camera
+
 device_tracker.phone_dale_work_ariela:
   friendly_name: Dale's Work Phone (Ariela)
 
@@ -17,6 +20,18 @@ device_tracker.tablet_dale_12_ariela:
 
 light.dale_s_ceiling_light:
   friendly_name: Dale's Light
+
+media_player.dale_firetv:
+  friendly_name: Dale's Fire TV
+
+media_player.dale_kodi:
+  friendly_name: Dale's Kodi
+
+media_player.dale_samsungtv:
+  friendly_name: Dale's Samsung TV
+
+media_player.ghm_kitchen:
+  friendly_name: Google Home Mini Kitchen
 
 sensor.custom_card_tracker:
   friendly_name: Custom Card Updates
@@ -53,3 +68,6 @@ sensor.server_room_temperature:
 
 sensor.server_room_humidity:
   friendly_name: Server Room Humidity
+
+switch.combi_boiler_heating:
+  friendly_name: Combi Boiler Heating
