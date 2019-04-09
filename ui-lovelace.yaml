@@ -8,6 +8,8 @@ resources:
     type: module
   - url: /customcards/lovelace/custom-cards/thermostat-card/thermostat-card.js?track=true
     type: module
+  - url: /customcards/lovelace/custom-cards/simple-thermostat/simple-thermostat.js?track=true
+    type: module
 views:
   - !include lovelace/views/mobile_view_home.yaml
   - !include lovelace/views/mobile_view_weather.yaml
