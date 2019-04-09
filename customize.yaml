@@ -39,11 +39,11 @@ sensor.custom_card_tracker:
 sensor.custom_component_tracker: 
   friendly_name: Custom Component Updates
 
-sensor.dale_bedroom_temperature:
-  friendly_name: Dale's Bedroom Temperature
-
 sensor.dale_bedroom_humidity:
   friendly_name: Dale's Bedroom Humidity
+
+sensor.dale_bedroom_temperature:
+  friendly_name: Dale's Bedroom Temperature
 
 sensor.ghm_kitchen_alarm:
   friendly_name: GHM Kitchen Alarm Countdown
@@ -57,17 +57,23 @@ sensor.ghm_kitchen_timer:
 sensor.ghm_kitchen_timer_template:
   friendly_name: GHM Kitchen Timer Time
 
-sensor.kitchen_temperature:
-  friendly_name: Kitchen Temperature
-
 sensor.kitchen_humidity:
   friendly_name: Kitchen Humidity
 
-sensor.server_room_temperature:
-  friendly_name: Server Room Temperature
+sensor.kitchen_temperature:
+  friendly_name: Kitchen Temperature
+
+sensor.living_room_humidity:
+  friendly_name: Living Room Humidity
+
+sensor.living_room_temperature:
+  friendly_name: Living Room Temperature
 
 sensor.server_room_humidity:
   friendly_name: Server Room Humidity
+
+sensor.server_room_temperature:
+  friendly_name: Server Room Temperature
 
 switch.combi_boiler_heating:
   friendly_name: Combi Boiler Heating

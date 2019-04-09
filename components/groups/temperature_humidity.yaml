@@ -3,9 +3,11 @@
 temperature_humidity:
   name: Temperature / Humidity
   entities:
-  - sensor.dale_bedroom_temperature
   - sensor.dale_bedroom_humidity
-  - sensor.kitchen_temperature
+  - sensor.dale_bedroom_temperature
   - sensor.kitchen_humidity
-  - sensor.server_room_temperature
+  - sensor.kitchen_temperature
+  - sensor.living_room_humidity
+  - sensor.living_room_temperature
   - sensor.server_room_humidity
+  - sensor.server_room_temperature
