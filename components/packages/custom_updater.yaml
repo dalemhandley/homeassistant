@@ -4,3 +4,4 @@ custom_updater:
     - components
   card_urls:
     - https://raw.githubusercontent.com/bramkragten/custom-ui/master/updater.json
+    - https://raw.githubusercontent.com/nervetattoo/simple-thermostat/master/tracker.json
