@@ -100,6 +100,8 @@ influxdb:
       - sensor.internet_time
       - sensor.kitchen_temperature
       - sensor.kitchen_humidity
+      - sensor.living_room_temperature
+      - sensor.living_room_humidity
       - sensor.mpu6050_accel_x
       - sensor.mpu6050_accel_y
       - sensor.mpu6050_accel_z
