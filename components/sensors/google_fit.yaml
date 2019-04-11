@@ -13,10 +13,10 @@
       icon_template: >-
           mdi:hotel
       value_template: >-
-          {%- if states.sensor.google_fit_sleep.attributes.bed_time %}
+          {%- if states.sensor.google_fit_sleep %}
             {{ states.sensor.google_fit_sleep.attributes.bed_time }}
           {% else %}
-            {{ states.sensor.google_fit_sleep.attributes.bed_time }}
+            {{ "Not available" }}
           {%- endif %}
 
 - platform: template
@@ -26,10 +26,10 @@
       icon_template: >-
           mdi:white-balance-sunny
       value_template: >-
-          {%- if states.sensor.google_fit_sleep.attributes.wake_up_time %}
+          {%- if states.sensor.google_fit_sleep %}
             {{ states.sensor.google_fit_sleep.attributes.wake_up_time }}
           {% else %}
-            {{ states.sensor.google_fit_sleep.attributes.wake_up_time }}
+            {{ "Not available" }}
           {%- endif %}
          
 - platform: template
@@ -39,10 +39,10 @@
       icon_template: >-
           mdi:sleep
       value_template: >-
-          {%- if states.sensor.google_fit_sleep.attributes.deep_sleep %}
+          {%- if states.sensor.google_fit_sleep %}
             {{ states.sensor.google_fit_sleep.attributes.deep_sleep }}
           {% else %}
-            {{ states.sensor.google_fit_sleep.attributes.deep_sleep }}
+            {{ "Not available" }}
           {%- endif %}
                      
 - platform: template
@@ -52,8 +52,8 @@
       icon_template: >-
           mdi:sleep-off
       value_template: >-
-          {%- if states.sensor.google_fit_sleep.attributes.light_sleep %}
+          {%- if states.sensor.google_fit_sleep %}
             {{ states.sensor.google_fit_sleep.attributes.light_sleep }}
           {% else %}
-            {{ states.sensor.google_fit_sleep.attributes.light_sleep }}
+            {{ "Not available" }}
           {%- endif %}
