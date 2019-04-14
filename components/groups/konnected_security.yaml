@@ -4,3 +4,4 @@ konnected_security:
   name: Konnected Security
   entities:
     - binary_sensor.front_door
+    - binary_sensor.back_door_esphome
