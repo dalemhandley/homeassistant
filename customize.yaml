@@ -1,5 +1,13 @@
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 
+binary_sensor.back_door_esphome:
+  device_class: Door
+  friendly_name: Back Door (ESPHome)
+
+binary_sensor.front_door:
+  device_class: Door
+  friendly_name: Front Door (Konnected)
+
 binary_sensor.workday_sensor:
   friendly_name: Workday Sensor
 
