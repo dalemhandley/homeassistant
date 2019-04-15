@@ -1,0 +1,13 @@
+# https://www.home-assistant.io/components/sensor.template/
+
+- platform: template
+  sensors:
+    washing_machine_water_leak:
+      friendly_name: Washing Machine Water Leak
+      value_template: >-
+        {% if states('sensor.water_level') | round(2) > 0.00 %}
+          off
+        {% else %}
+          on
+        {% endif %}
+      device_class: moisture

@@ -11,3 +11,4 @@ laundry:
   - sensor.mpu6050_gyro_z
   - sensor.mpu6050_temperature
   - sensor.water_level
+  - sensor.washing_machine_water_leak
