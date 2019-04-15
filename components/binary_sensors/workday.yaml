@@ -1,15 +1,15 @@
 # https://www.home-assistant.io/components/binary_sensor.workday/
 
-platform: workday
-name: workday_sensor
-country: England
-workdays:
-  - mon
-  - tue
-  - wed
-  - thu
-  - fri
-excludes: 
-  - sat
-  - sun
-  - holiday
+- platform: workday
+  name: workday_sensor
+  country: England
+  workdays:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  excludes: 
+    - sat
+    - sun
+    - holiday
