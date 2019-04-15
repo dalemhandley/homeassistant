@@ -6,8 +6,8 @@
       friendly_name: Washing Machine Water Leak
       value_template: >-
         {% if states('sensor.water_level') | round(2) > 0.00 %}
-          off
-        {% else %}
           on
+        {% else %}
+          off
         {% endif %}
       device_class: moisture
