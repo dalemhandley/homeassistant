@@ -13,7 +13,7 @@ influxdb:
 
   include:
     entities:
-      - binary_sensor.back_door_esphome
+      - binary_sensor.back_door
       - binary_sensor.front_door
       - binary_sensor.pir_sensor
       - binary_sensor.workday_sensor
