@@ -1,0 +1,5 @@
+# https://www.home-assistant.io/components/input_boolean/
+
+ghost_mode:
+  name: Enable Ghost Mode
+  icon: mdi:ghost
