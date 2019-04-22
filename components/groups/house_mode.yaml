@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+housemode:
+  name: House Modes
+  entities:
+    - input_boolean.ghost_mode
+    - input_boolean.guest_mode
