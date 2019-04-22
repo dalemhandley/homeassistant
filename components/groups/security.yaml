@@ -3,5 +3,6 @@
 security:
   name: Security
   entities:
+    - binary_sensor.back_door
     - binary_sensor.front_door
     - binary_sensor.pir_sensor
