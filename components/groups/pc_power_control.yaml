@@ -1,0 +1,7 @@
+# https://www.home-assistant.io/components/group/
+
+pcpowercontrol:
+  name: PC Power Control
+  entities:
+    - binary_sensor.pc_power_led
+    - switch.pc_power_switch
