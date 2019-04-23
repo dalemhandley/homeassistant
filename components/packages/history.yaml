@@ -5,7 +5,8 @@ history:
     entities:
       - binary_sensor.back_door
       - binary_sensor.front_door
-      - binary_sensor.pir_sensor
+      - binary_sensor.pir_sensor_back_door
+      - binary_sensor.pir_sensor_front_door
       - binary_sensor.workday_sensor
       - device_tracker.phone_dale_nmap
       - device_tracker.phone_dale_personal_ariela
