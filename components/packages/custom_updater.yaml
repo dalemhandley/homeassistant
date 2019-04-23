@@ -5,3 +5,6 @@ custom_updater:
   card_urls:
     - https://raw.githubusercontent.com/bramkragten/custom-ui/master/updater.json
     - https://raw.githubusercontent.com/nervetattoo/simple-thermostat/master/tracker.json
+  component_urls:
+    # Released build
+    - https://raw.githubusercontent.com/keatontaylor/alexa_media_player/master/custom_components.json
