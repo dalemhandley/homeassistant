@@ -2,4 +2,4 @@
 
 guest_mode:
   name: Enable Guest Mode
-  icon: mdi:hotel
+  icon: mdi:account-alert
