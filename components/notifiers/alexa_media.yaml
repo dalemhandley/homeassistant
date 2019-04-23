@@ -1,0 +1,5 @@
+# https://community.home-assistant.io/t/echo-devices-alexa-as-media-player-testers-needed/58639
+# https://github.com/keatontaylor/alexa_media_player
+
+platform: alexa_media
+name: alexa_media
