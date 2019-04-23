@@ -23,7 +23,7 @@ influxdb:
       - device_tracker.phone_dale_work_ariela
       - device_tracker.tablet_dale_10_ariela
       - device_tracker.tablet_dale_12_ariela
-      - light.dale_s_ceiling_light
+      - light.dale_ceiling_light
       - media_player.dale_firetv
       - media_player.dale_kodi
       - media_player.dale_samsungtv
