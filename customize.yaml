@@ -3,6 +3,9 @@
 binary_sensor.workday_sensor:
   friendly_name: Workday Sensor
 
+binary_sensor.water_leak_washing_machine:
+  friendly_name: Water Leak Washing Machine
+
 device_tracker.phone_dale_personal_ariela:
   friendly_name: Dale's Personal Phone (Ariela)
 
@@ -74,6 +77,9 @@ sensor.server_room_humidity:
 
 sensor.server_room_temperature:
   friendly_name: Server Room Temperature
+
+sensor.water_leak_washing_machine:
+  friendly_name: Water Leak Washing Machine
 
 switch.combi_boiler_heating:
   friendly_name: Combi Boiler Heating
