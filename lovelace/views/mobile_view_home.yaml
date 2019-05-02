@@ -8,11 +8,30 @@ cards:
         cards:
           - type: custom:compact-custom-header
             main_config: true
-          - type: picture-entity
-            entity: person.dale
+          - type: picture-elements
             image: /local/lovelace/images/person.dale.jpg
-            show_name: false
-            show_state: true
+            elements:
+              - type: state-label
+                entity: person.dale
+                style:
+                  left: 20%
+                  top: 89%
+                  color: white
+                  font-weight: bold
+              - type: state-label
+                entity: sensor.battery_phone_dale_personal
+                style:
+                  left: 75%
+                  top: 89%
+                  color: white
+                  font-weight: bold
+              - type: state-label
+                entity: sensor.battery_phone_dale_work
+                style:
+                  left: 92%
+                  top: 89%
+                  color: white
+                  font-weight: bold
           - type: picture-entity
             entity: person.cait
             image: /local/lovelace/images/person.cait.jpg
@@ -20,65 +39,31 @@ cards:
             show_state: true
   - type: vertical-stack
     cards:
-      - type: horizontal-stack
-        cards:
-          - type: thermostat
-            entity: climate.thermostat
-            name: Thermostat
+      - type: custom:simple-thermostat
+        entity: climate.thermostat
+        icon:
+          heat: mdi:radiator
+          idle: mdi:radiator-disabled
+        hide:
+          temperature: true
+        sensors:
+          - entity: sensor.dale_bedroom_temperature
+            name: Dale's Bedroom
+          - entity: sensor.kitchen_temperature
+            name: Kitchen
+          - entity: sensor.living_room_temperature
+            name: Living Room
+          - entity: sensor.server_room_temperature
+            name: Server Room
   - type: vertical-stack
     cards:
       - type: horizontal-stack
         cards:
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.cait
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-  - type: vertical-stack
-    cards:
-      - type: horizontal-stack
-        cards:
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.cait
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-  - type: vertical-stack
-    cards:
-      - type: horizontal-stack
-        cards:
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.cait
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
-          - type: picture-entity
-            entity: person.dale
-            image: /local/lovelace/images/placeholder.png
-            show_name: false
-            show_state: false
+          - type: glance
+            entities:
+              - entity: light.dale_ceiling_light
+                name: Dale's Light
+              - entity: light.dale_ceiling_light
+                name: Cait's Light
+              - entity: light.dale_ceiling_light
+                name: Living Room Light

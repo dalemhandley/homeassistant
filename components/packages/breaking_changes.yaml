@@ -1,0 +1,6 @@
+# https://community.home-assistant.io/t/custom-component-breaking-changes/110455
+# https://hachanges.halfdecent.io/
+# https://github.com/custom-components/breaking_changes
+
+breaking_changes:
+  name: potential_breaking_changes
