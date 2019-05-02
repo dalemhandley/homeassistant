@@ -8,12 +8,30 @@ cards:
         cards:
           - type: custom:compact-custom-header
             main_config: true
-          - type: picture-glance
+          - type: picture-elements
             image: /local/lovelace/images/person.dale.jpg
-            entities:
-              - person.dale
-              - sensor.battery_phone_dale_personal
-              - sensor.battery_phone_dale_work
+            elements:
+              - type: state-label
+                entity: person.dale
+                style:
+                  left: 20%
+                  top: 89%
+                  color: white
+                  font-weight: bold
+              - type: state-label
+                entity: sensor.battery_phone_dale_personal
+                style:
+                  left: 75%
+                  top: 89%
+                  color: white
+                  font-weight: bold
+              - type: state-label
+                entity: sensor.battery_phone_dale_work
+                style:
+                  left: 92%
+                  top: 89%
+                  color: white
+                  font-weight: bold
           - type: picture-entity
             entity: person.cait
             image: /local/lovelace/images/person.cait.jpg
