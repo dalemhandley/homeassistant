@@ -21,11 +21,22 @@ cards:
             show_state: true
   - type: vertical-stack
     cards:
-      - type: horizontal-stack
-        cards:
-          - type: thermostat
-            entity: climate.thermostat
-            name: Thermostat
+      - type: custom:simple-thermostat
+        entity: climate.thermostat
+        icon:
+          heat: mdi:radiator
+          idle: mdi:radiator-disabled
+        hide:
+          temperature: true
+        sensors:
+          - entity: sensor.dale_bedroom_temperature
+            name: Dale's Bedroom
+          - entity: sensor.kitchen_temperature
+            name: Kitchen
+          - entity: sensor.living_room_temperature
+            name: Living Room
+          - entity: sensor.server_room_temperature
+            name: Server Room
   - type: vertical-stack
     cards:
       - type: horizontal-stack
