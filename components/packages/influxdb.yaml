@@ -17,6 +17,7 @@ influxdb:
       - binary_sensor.front_door
       - binary_sensor.pir_sensor_back_door
       - binary_sensor.pir_sensor_front_door
+      - binary_sensor.water_leak_washing_machine
       - binary_sensor.workday_sensor
       - device_tracker.phone_dale_nmap
       - device_tracker.phone_dale_personal_ariela
@@ -129,6 +130,6 @@ influxdb:
       - sensor.time
       - sensor.version_available
       - sensor.version_current
-      - sensor.water_level
+      - sensor.water_leak_washing_machine
       - sensor.yr_symbol
       - sun.sun
