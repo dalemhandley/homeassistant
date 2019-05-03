@@ -12,6 +12,7 @@ home-assistant_v2.db
 home-assistant.log
 
 *.disabled
+*.pyc
 
 .ps4-games.json
 emulated_hue_ids.json
