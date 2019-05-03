@@ -1,0 +1,1 @@
+""" test init file as per https://community.home-assistant.io/t/google-fit-support/4556/70 """
