@@ -1,5 +1,23 @@
+# Explicitly ignored folders
+
+.storage
+deps
+tts
+
 # Explicitly ignored files
+
+.HA_VERSION
+.uuid
+home-assistant_v2.db
+home-assistant.log
+
 *.disabled
+
+.ps4-games.json
+emulated_hue_ids.json
+
+*.pickle
+.spotify-token-cache
 android/adbkey
 android/adbkey.pub
 ip_bans.yaml
