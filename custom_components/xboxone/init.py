@@ -1,0 +1,1 @@
+""" test init file as per https://community.home-assistant.io/t/hass-io-add-on-xbox-one/63750/134 """
