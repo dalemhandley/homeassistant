@@ -18,6 +18,7 @@ home-assistant.log
 emulated_hue_ids.json
 
 *.pickle
+.google_fit.token
 .spotify-token-cache
 android/adbkey
 android/adbkey.pub
