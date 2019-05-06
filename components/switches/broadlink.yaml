@@ -5,7 +5,7 @@
   host: !secret ip_address_broadlink_rm2_pro
   mac: !secret mac_address_broadlink_rm2_pro
   switches:
-    broadlink_ir_samsung_tv_discrete_power_toggle:
+    broadlink_ir_samsung_tv_power_toggle:
       friendly_name: "Samsung TV Power Toggle"
       command_on: 'JgBGAJKVETkRORA6ERQRFBEUERQRFBE5ETkQOhAVEBUQFREUEBUQOhEUERQRORE5EBURFBA6EBUQOhE5EBUQFRA6EDoRFBEADQUAAA'
       command_off: 'JgBGAJOVEDoQOhA6DxYPFhAVEBUQFRA6ETkROREUERQRFBEUEBUQFREUERQRORE5EBUQFRE5ETkRORE5ERUQFRA6DzsPFhAADQUAAA'
