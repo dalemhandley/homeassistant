@@ -1,0 +1,158 @@
+# https://www.home-assistant.io/components/broadlink/
+# https://github.com/yahat/broadlink_mini_homeassistant_ir_codes_samsung_tv
+
+- platform: broadlink
+  host: !secret ip_address_broadlink_rm2_pro
+  mac: !secret mac_address_broadlink_rm2_pro
+  switches:
+    broadlink_ir_samsung_tv_discrete_power_toggle:
+      friendly_name: "Samsung TV Power Toggle"
+      command_on: 'JgBGAJKVETkRORA6ERQRFBEUERQRFBE5ETkQOhAVEBUQFREUEBUQOhEUERQRORE5EBURFBA6EBUQOhE5EBUQFRA6EDoRFBEADQUAAA'
+      command_off: 'JgBGAJOVEDoQOhA6DxYPFhAVEBUQFRA6ETkROREUERQRFBEUEBUQFREUERQRORE5EBUQFRE5ETkRORE5ERUQFRA6DzsPFhAADQUAAA'
+    broadlink_ir_samsung_tv_power_on:
+      friendly_name: "Samsung TV Power On"
+      command_on: 'JgBGAJKVETkRORA6ERQRFBEUERQRFBE5ETkQOhAVEBUQFREUEBUQOhEUERQRORE5EBURFBA6EBUQOhE5EBUQFRA6EDoRFBEADQUAAA'
+    broadlink_ir_samsung_tv_power_off:
+      friendly_name: "Samsung TV Power Off"
+      command_on: 'JgBGAJOVEDoQOhA6DxYPFhAVEBUQFRA6ETkROREUERQRFBEUEBUQFREUERQRORE5EBUQFRE5ETkRORE5ERUQFRA6DzsPFhAADQUAAA'
+    broadlink_ir_samsung_tv_volume_mute:
+      friendly_name: "Samsung TV Volume Mute"
+      command_on: 'JgBGAJGWEDoQOhA6EBUQFREUEBURFBA6ETkRORITERQRFBEUEBURORE5ETkROREUERQTEhEUEBYPFhAVEBUQOg87EDoQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_volume_up:
+      friendly_name: "Samsung TV Volume Up"
+      command_on: 'JgBGAJKVETkRORA6ERQRFBAVEBUQFRA7EDkROhAUERUQFRAUEBYQOhA6EDoPFhAVEBUQFQ8WEBUPFhAVEDoQOhA6EDoQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_volume_down:
+      friendly_name: "Samsung TV Volume Down"
+      command_on: 'JgBGAJKVEDoSOBE5EBUQFREUERQRFBA6EDoROREUEBURFBEUEBUQOhE5ERQROREUEBURFBAVEBUQFRE5ERQQOhE5EDoQOhAADQUAAA=='
+    broadlink_ir_samsung_tv_channel_up:
+      friendly_name: "Samsung TV Channel Up"
+      command_on: 'JgBGAJKVEDkROhE4EBUQFg4XDBkPFw86DzsQOg8WERQPFhAVEBUQFRA5ERUPFhA6DxYQFQ8WDzoRFQ87EDoRFBA5EToQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_channel_down:
+      friendly_name: "Samsung TV Channel Down"
+      command_on: 'JgBGAJKVEDoQOhA6ERQQFg8WDxYQFQ87EDoQOg8WDxcOFw8VDxcOFg8XDhYRFQ47EBUPFg8WDzsPPA87EDkRFBE5EjgQOhAADQUAAA'
+    broadlink_ir_samsung_tv_channel_pre:
+      friendly_name: "Samsung TV Channel Pre"
+      command_on: 'JgCMAJSTEzYTNhM3EhITEhMSEhITEhI3EzYTNhMSExISEhMSExISNxI3ExISEhI3EhMSExISEhMSExI3EjcSExE4EjcSNxIABfuUkhM3EjcTNhMSEhITEhMSEhITNhM3EjcTEhISExISEhMSEzYTNhMSExISNxMRExITEhISExITNhM2ExITNhM2EzcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_channel_list:
+      friendly_name: "Samsung TV Channel List"
+      command_on: 'JgCMAJSTEzYTNxI3ExETEhMSEhITEhM2EzYTNxISExITERMSExISNxM2ExITNxISEjcTNhMSEhITEhM2ExITNxISEhITNxIABfqUkxM1FDcSNxISExITEhISExITNhM2EzcSEhMSEhITEhMSEjcTNhMSEjcTEhI3EjcTEhISExITNhMSEjcTEhISEzYTAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_channel_guide:
+      friendly_name: "Samsung TV Channel Guide"
+      command_on: 'JgCMAJSTEjcSNxI4EhISExITEhISExI3EjcSNxMSEhMSEhITEhMSNxI3EjcSNxMSEhMSNxITEhISExITEhISNxI3ExISNxIABfuTlBI3EjcSNxITEhMSEhITEhMROBI3EjcSExITERMSExISEjgROBI3EjcSExITETgSEhITEhMRExITEjcSNxITEjcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_number_0:
+      friendly_name: "Samsung TV Number 0"
+      command_on: 'JgBGAJKVETkRORA7EBQSExEVDxUQFg87DzsTNw8WERQPFhAVDxYPOxAVEBUPFg87DxYRFBAVDxcPOhA6EDoQFRA6ETkQOhAADQUAAA'
+    broadlink_ir_samsung_tv_number_1:
+      friendly_name: "Samsung TV Number 1"
+      command_on: 'JgBGAJOUETkSOBE5ERQRFBEUEBUQFRE5ETkROREVDxUQFhAWDhYPFhITEDoPFg8VEBYPFg8WEDoQOhAVETkQOhA6EDoQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_number_2:
+      friendly_name: "Samsung TV Number 2"
+      command_on: 'JgBGAJKVETkRORE5ERQQFREUERQRFBA6EjgTNxAWEBUQFRAVEBUPOxAVEDoPFhAVDxYQFRAVEBUQOhEUEDoQOhA6DzsQOhAADQUAAA'
+    broadlink_ir_samsung_tv_number_3:
+      friendly_name: "Samsung TV Number 3"
+      command_on: 'JgBGAJKWDzsQOg87EBUQFQ8WEBUQFRA6DzsQOg8WDxYQFRAVDxYQFRA6EDoQFRAVEBURFA8WEDoRFBEUEDoPOxA6EDoPOxAADQUAAA'
+    broadlink_ir_samsung_tv_number_4:
+      friendly_name: "Samsung TV Number 4"
+      command_on: 'JgBGAJKWEDoSOBA6EBUQFQ8WEBUPFg87EDoQOhAVEBUQExQTEBURFBAVEBUROREUEBURFBEUEDoRORE5EBUSOBE5ETkQOhEADQUAAA'
+    broadlink_ir_samsung_tv_number_5:
+      friendly_name: "Samsung TV Number 5"
+      command_on: 'JgBGAJKVETkRORE5EBUQFRAVEBUSExE5ETkROREUEBURFBAVEBURORITEBUSOBEUERQQFREUExIQOhE5EBURORE5EjgQOhEADQUAAA'
+    broadlink_ir_samsung_tv_number_6:
+      friendly_name: "Samsung TV Number 6"
+      command_on: 'JgBGAJKVEDoQOhE5EBURFBEUERQQFRA6ETkQOhEUEBUQFREUERQRFBE5ERQQOhAVEBUQFREUETkRFBE5EhMQOhE5ETkROREADQUAAA'
+    broadlink_ir_samsung_tv_number_7:
+      friendly_name: "Samsung TV Number 7"
+      command_on: 'JgBGAJKVETkROhE5DxURFQ8WERQQFRA6EDoQOhEUDxYPFg8WEBUQFREUDzsRORAVEBUQFRAVEDoSOBITERQRORE5EDoTNxEADQUAAA'
+    broadlink_ir_samsung_tv_number_8:
+      friendly_name: "Samsung TV Number 8"
+      command_on: 'JgBGAJOUETkRORE5EhMRFBAVEBUQFRA6EzcRORIUDxUQFRAVERQQOhAVEDoQOw8WEBQRFQ8WEBUQORIUEBURORA6EDoQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_number_9:
+      friendly_name: "Samsung TV Number 9"
+      command_on: 'JgBGAJKVETkTNxE5ERQRFBEUERQQFRE5EDoROREUERQRFBEUDxYQFRA6ETkRORAVDxYPFhAVDzsRFBAVEBUQOhA6EDoQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_navigation_up:
+      friendly_name: "Samsung TV Navigation Up"
+      command_on: 'JgBGAJGWEDwNOw88DxQQFg8WDxYPFg86ETkROw8VEBYPFQ8XEBUOFhEVDhYPFhEVDzoROBEVDzsQOw86EDkROhAWDhYPPA4ADQUAAA'
+    broadlink_ir_samsung_tv_navigation_down:
+      friendly_name: "Samsung TV Navigation Down"
+      command_on: 'JgBEAJCWCEQNPQ09DRkMFw8YDRoKGA09DUEKPQwXDjsPGgoZCz8OIQYUDhgNHAk8DEEMFgscDTwNOw9BCkAJFg8YDTwOAA0FAAAAAA'
+    broadlink_ir_samsung_tv_navigation_left:
+      friendly_name: "Samsung TV Navigation Left"
+      command_on: 'JgBAAB4FBAgJDgsQDRATnwiKCEEKFwYgDEEJYg2yCBgNGQwfBiAHPQeLCB4LiwoaCRwJQgofB0AKPwgdChsKPwkADQUAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_navigation_right:
+      friendly_name: "Samsung TV Navigation Right"
+      command_on: 'JgBGAI2YEDsMPw47DhgOFQ8YDhcNFw47DzsPPBEVDRcOFhAVEBcPFBE5EBYMGQ8WDjwOPQ0XDzsOFhE7DTwPOw4WDxYPOxAADQUAAA'
+    broadlink_ir_samsung_tv_navigation_ok:
+      friendly_name: "Samsung TV Navigation OK"
+      command_on: 'JgBGAJGXDzwMPQ49DhUQFg8WDxYQFBE6ETkPOhAWEBUPFg8WDxYQFQ8WEBYOOhAWDzsSOA8WDzsQOxA4ERUPOxAVDxYQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_navigation_return:
+      friendly_name: "Samsung TV Navigation Return"
+      command_on: 'JgCMAJOUETgSNxI3EhMSExETEhMSEhI4ETgSNxITERMSExITERMSExISEhMSNxI3EhMSNxITEjcSNxI4ERMSExI3EhMROBIABfuTkxI3EjgSNxITERMSExISEhMSNxI3EjgRExITEhMRExITEhISExITETgSNxITETgSExE4EjcSNxITEhMROBETEjcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_navigation_exit:
+      friendly_name: "Samsung TV Navigation Exit"
+      command_on: 'JgCMAJOTEjcTNxI3EhMSEhITEhMRExI3EjcSOBISEhMSExETEhMSNxITEjcSNxITEjcSExETEhMSNxITEhISNxITEjcSOBEABfuTlBI3EjcSOBETEhMSEhITEhMROBI3EjcSExITERMSExISEjgRExI3EjcSExI3EhMSExISEjgRExITEjcSExE4EjcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_navigation_smart:
+      friendly_name: "Samsung TV Navigation Smart"
+      command_on: 'JgBGAJGWDzsPOxA6EBUQFRAVEBUQFRA6ETkQOhAVEBUQFREUEBURORAVERQRORA6ETkROREUERQRORA6ERQQFRITEBUROREADQUAAA'
+    broadlink_ir_samsung_tv_navigation_menu:
+      friendly_name: "Samsung TV Navigation Menu"
+      command_on: 'JgBGAJKVEDoRORE5ERQQFREUERQRFBE5ETkQOhEUERQQFRAVERQRFBA6ERQRORA6ERQQFRAVETkQFRE5EBUQFRA6EDoROREADQUAAA'
+    broadlink_ir_samsung_tv_navigation_back:
+      friendly_name: "Samsung TV Navigation Back"
+      command_on: 'JgBGAJKWDzsQOhA6EBUPFhAVEBUQFQ87EDoSOBAVEBUPFhITEBUQFREUERQQOhA6EBUQOhAVEDoQOhA6ERQQFRE5EBUPOxEADQUAAA'
+    broadlink_ir_samsung_tv_input_select:
+      friendly_name: "Samsung TV Input Select"
+      command_on: 'JgBGAJOUEjgSOBI4EhMSExITEhMSExI4EjgSOBITEhMSExITEhMSOBITEhMSExITEhMSExITEhMSOBI4EjgSOBI4EjgSOBIADQUAAA'
+    broadlink_ir_samsung_tv_input_dtv:
+      friendly_name: "Samsung TV Input DTV"
+      command_on: 'JgBGAJSTEjgSOBI4EhMSExITEhMSExI4EjgSNxMTEhQRFBEUERQRORE4EhQSExITEhMSOBITEhMSExI4EjgSOBI4EhMSOBIADQUAAA'
+    broadlink_ir_samsung_tv_input_antenna:
+      friendly_name: "Samsung TV Input Antenna"
+      command_on: 'JgBGAJKVETkSOBE5EBUQFRAVERQSExI4ETkQOhAVERQRFBEUEBUQFRE5ETkQFRA6ETkQFRAVETkRFBAWDzsPFhAVDjwQOg8ADQUAAA'
+    broadlink_ir_samsung_tv_input_hdmi:
+      friendly_name: "Samsung TV Input HDMI"
+      command_on: 'JgBGAJGWETkRORI4ERQRFBAVERQRFBE5ETkROREUEBURFBEUERQQOxA6EBUPOw8WDxYQFRA6DxYQFRA6EBUPOxA6ETkRFBEADQUAAA'
+    broadlink_ir_samsung_tv_input_hdmi1:
+      friendly_name: "Samsung TV Input HDMI1"
+      command_on: 'JgBGAJKVETkRORE5ERQQFRAVERQQFRE5ETkROREUERQRFBEUERQRORAVERUPOxAVDzsQOhA6EBUQOhA6EBUQOhAVEBUPFhAADQUAAA'
+    broadlink_ir_samsung_tv_input_hdmi2:
+      friendly_name: "Samsung TV Input HDMI2"
+      command_on: 'JgBGAJOUETkRORA6ERQQFRAVERQRFBA6ETkROhAVDxYQFQ8WEBUQFQ87EDoRORA6DzsQFRA6DzsPFhAVDxYQFRAVEDoQFRAADQUAAA'
+    broadlink_ir_samsung_tv_input_hdmi3:
+      friendly_name: "Samsung TV Input HDMI3"
+      command_on: 'JgBGAJOUEDoRORE5ERQRFRAUERQRFBE5EDsQOhAVEBUPFg8WDxYPFhA6EBUPFg8WEBUROQ87EDoQFQ87EDoQOhA6EBUPFhAADQUAAA'
+    broadlink_ir_samsung_tv_input_hdmi4:
+      friendly_name: "Samsung TV Input HDMI4"
+      command_on: 'JgBGAJOVETgRORE6DxYQFQ8WDxYPFhA6EDoQOhAVDxYQFQ8WDxYPOw8WEDoQFRAVDxYPOxA6EBUQOhAVEDoQOhA6EBUPFhAADQUAAA'
+    broadlink_ir_samsung_tv_option_red:
+      friendly_name: "Samsung TV Option Red"
+      command_on: 'JgBGAJOUETkRORE5EBUQFREUEBUQFRA6EDoQOhAVEBURFBAVEBUQFRAVETkROREUEDoROREUETkROREUERQROREVEBUQOhAADQUAAA'
+    broadlink_ir_samsung_tv_option_green:
+      friendly_name: "Samsung TV Option Green"
+      command_on: 'JgBGAJSTETkRORE5EBURFBEUERQRFBA6ETkRORAVERQSExAVEBURFBEUEDsQFQ87EBUPFg8WEDoPOw8WEDoQFRA6EDoQOhAADQUAAA'
+    broadlink_ir_samsung_tv_option_yellow:
+      friendly_name: "Samsung TV Option Yellow"
+      command_on: 'JgBGAJOUEjgSOBE5EBYQFQ8WEBUQFRA6DzsQOhAVDxYQFQ8WEBUQOhAVEDoRFBE5EBURFBEUEBUQOhEUETkQFRE5ETkQOhEADQUAAA'
+    broadlink_ir_samsung_tv_option_blue:
+      friendly_name: "Samsung TV Option Blue"
+      command_on: 'JgBGAJOUEDsQOhA6DxYPFhEUDxYPFg87EDoPOxAVEBUQFRAVEBURFBA6ETkRFBA6ERQQFRAVEDoPFhAVETkRFBE5EzcQOhAADQUAAA'
+    broadlink_ir_samsung_tv_option_tools:
+      friendly_name: "Samsung TV Option Tools"
+      command_on: 'JgCMAJOUETgSNxI3EhMSExETEhMSEhI4EjcSNxITEhISExITERMSNxI4EhISNxITEhMSNxITEhISExI3EhMSNxI3EhMSNxIABfuTkxI4EjcSNxITEhISExITEhISNxI4EjcSExETEhMSExETEjcSNxITEjcSExITEjcSExETEhMSNxITETgSNxITEjcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_option_info:
+      friendly_name: "Samsung TV Option Info"
+      command_on: 'JgCMAJSSEjgROBI3EhMRExITEhMRExI3EjgROBISEhMSExETEhMSNxI3EjgROBI3EhMRExITEhMRExITERMSExI3EjcSOBEABfuTlBI3EjcSOBETEhMSExETEhMSNxI3EjcSExITEhISExITETgSNxI3EjcSOBISEhMSExETEhMSExETEhMROBI3EjcSAA0FAAAAAAAAAAAAAAAA'
+    broadlink_ir_samsung_tv_player_back:
+      friendly_name: "Samsung TV Player Back"
+      command_on: 'JgBGAJOUDzsPOxA6EBURFBAVEBYOFg87EDoQOhEUDxYPFg8WDxYQOhAVDzsQFQ8WEhMQOhAVEBURORAVETkRORE5ERQQOhEADQUAAA'
+    broadlink_ir_samsung_tv_player_play:
+      friendly_name: "Samsung TV Player Play"
+      command_on: 'JgBGAJOUETkRORA7EBUQFRAVEBUQFQ87DzsPOw8WEBUQFRAVEBUPOxA6EDoRFBEUEBURORAVEBURFBEUEDoRORE5ERUPOw8ADQUAAA'
+    broadlink_ir_samsung_tv_player_pause:
+      friendly_name: "Samsung TV Player Pause"
+      command_on: 'JgBGAJKVETkQOhA6EhMQFREUERQQFRA7DzsQOhAVEBUPFhAVDxYQFRE5EBUQOhAVERQROREUETkQFRE5ERQQOhA6EBUQOhAADQUAAA'
+    broadlink_ir_samsung_tv_player_stop:
+      friendly_name: "Samsung TV Player Stop"
+      command_on: 'JgBGAJSTEjgQOhE5EBYQFQ8VEBYQFRA6DzsPOxAVEBUPFg8WEBUQFRA6EDoRFBAVERQROg8VEDoRFBEUETkQOhE5EhMQOhAADQUAAA'
+    broadlink_ir_samsung_tv_player_forward:
+      friendly_name: "Samsung TV Player Forward"
+      command_on: 'JgBGAJSVDzsQOhA6EBURFA8WERQSExA6EjgQOhAVEBUQFREUEBUQFREUEBUROREUEhMQOhAVEDoRORE5ERQRORE5EhMSOBEADQUAAA'
