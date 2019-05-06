@@ -1,0 +1,55 @@
+# https://www.home-assistant.io/components/group/
+
+samsung_tv:
+  name: Samsung TV
+  entities:
+    - switch.broadlink_ir_samsung_tv_power_toggle
+    - switch.broadlink_ir_samsung_tv_power_on
+    - switch.broadlink_ir_samsung_tv_power_off
+    - switch.broadlink_ir_samsung_tv_volume_mute
+    - switch.broadlink_ir_samsung_tv_volume_up
+    - switch.broadlink_ir_samsung_tv_volume_down
+    - switch.broadlink_ir_samsung_tv_channel_up
+    - switch.broadlink_ir_samsung_tv_channel_down
+    - switch.broadlink_ir_samsung_tv_channel_pre
+    - switch.broadlink_ir_samsung_tv_channel_list
+    - switch.broadlink_ir_samsung_tv_channel_guide
+    - switch.broadlink_ir_samsung_tv_number_0
+    - switch.broadlink_ir_samsung_tv_number_1
+    - switch.broadlink_ir_samsung_tv_number_2
+    - switch.broadlink_ir_samsung_tv_number_3
+    - switch.broadlink_ir_samsung_tv_number_4
+    - switch.broadlink_ir_samsung_tv_number_5
+    - switch.broadlink_ir_samsung_tv_number_6
+    - switch.broadlink_ir_samsung_tv_number_7
+    - switch.broadlink_ir_samsung_tv_number_8
+    - switch.broadlink_ir_samsung_tv_number_9
+    - switch.broadlink_ir_samsung_tv_navigation_up
+    - switch.broadlink_ir_samsung_tv_navigation_down
+    - switch.broadlink_ir_samsung_tv_navigation_left
+    - switch.broadlink_ir_samsung_tv_navigation_right
+    - switch.broadlink_ir_samsung_tv_navigation_ok
+    - switch.broadlink_ir_samsung_tv_navigation_return
+    - switch.broadlink_ir_samsung_tv_navigation_exit
+    - switch.broadlink_ir_samsung_tv_navigation_smart
+    - switch.broadlink_ir_samsung_tv_navigation_menu
+    - switch.broadlink_ir_samsung_tv_navigation_back
+    - switch.broadlink_ir_samsung_tv_input_select
+    - switch.broadlink_ir_samsung_tv_input_dtv
+    - switch.broadlink_ir_samsung_tv_input_antenna
+    - switch.broadlink_ir_samsung_tv_input_hdmi
+    - switch.broadlink_ir_samsung_tv_input_hdmi1
+    - switch.broadlink_ir_samsung_tv_input_hdmi2
+    - switch.broadlink_ir_samsung_tv_input_hdmi3
+    - switch.broadlink_ir_samsung_tv_input_hdmi4
+    - switch.broadlink_ir_samsung_tv_option_red
+    - switch.broadlink_ir_samsung_tv_option_green
+    - switch.broadlink_ir_samsung_tv_option_yellow
+    - switch.broadlink_ir_samsung_tv_option_blue
+    - switch.broadlink_ir_samsung_tv_option_tools
+    - switch.broadlink_ir_samsung_tv_option_info
+    - switch.broadlink_ir_samsung_tv_player_back
+    - switch.broadlink_ir_samsung_tv_player_play
+    - switch.broadlink_ir_samsung_tv_player_pause
+    - switch.broadlink_ir_samsung_tv_player_stop
+    - switch.broadlink_ir_samsung_tv_player_forward
