@@ -1,6 +1,7 @@
 # Explicitly ignored folders
 
 .storage
+.vscode
 deps
 tts
 
